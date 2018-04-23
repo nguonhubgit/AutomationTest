@@ -352,6 +352,11 @@ public class ChapterTwoExercise
 		double costOfDriving = (drivingDistance / milesPerGallon) * pricePerGallon;
 		
 		System.out.println("The cost of driving is: $" + costOfDriving);
+		
+		int n = 10; 
+		int m = 10; 
+		System.out.println(n++ + ++n); //10 + 12 = 22 
+		System.out.println(m++ + m++); //10 + 11 = 21
 
 	}
 }
